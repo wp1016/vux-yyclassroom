@@ -12,7 +12,7 @@
   }
 </script>
 <style lang="less" scoped>
-  .site-footanimate{ height: 80px; position: absolute; left: 0; bottom: 0; right: 0; overflow: hidden; z-index:10006;}
+  .site-footanimate{ height: 80px; position: absolute; left: 0; bottom: 0; right: 0; overflow: hidden; z-index:10006;padding-top: 40px;background:linear-gradient(to top, rgba(234,253,226,.8), rgba(234,253,226,0));background:-webkit-linear-gradient(to top, rgba(256,256,256,.8), rgba(256,256,256,0));}
   .site-footanimate .footico{ position: absolute; }
   .site-footanimate .footico img{ width: 100%; height: auto; display: block;}
   .site-footanimate .foot-l{position:absolute; width: 100px; bottom:0; left:0; z-index: 1;margin:0;}

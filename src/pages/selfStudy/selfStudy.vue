@@ -105,7 +105,6 @@
     },
     mounted(){
       setTimeout(()=>{
-        console.log(this.$refs.swiper)
         this.$http.get('src/common/data/data.json').then((res) => {
           let data=res.data;
           let acrossSwiper=data.acrossSwiper

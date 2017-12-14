@@ -1,6 +1,6 @@
 <template>
   <div style="height: 100%;" class="app" >
-    <view-box ref="viewBox" :body-padding-top="hasHeader" :body-padding-bottom="0">
+    <view-box ref="viewBox" :body-padding-top="'46px'" :body-padding-bottom="0">
       <x-header slot="header"
                 title="slot:default"
                 :left-options="{backText:''}"
@@ -23,7 +23,7 @@
   export default {
     data(){
       return{
-        hasHeader:'46px'
+
       }
     },
     components:{

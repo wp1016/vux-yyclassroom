@@ -1,0 +1,105 @@
+{
+  "listdata":[
+    {
+      "taskTime":"08月01日",
+      "taskList":[
+        {
+          "icoImgScr":"../../common/images/temp/task_ico1.gif",
+          "taskClass":"yellow",
+          "taskCatalog":"第一单元",
+          "taskCase":"教材作业",
+          "taskName":"正数和负数正数",
+          "lastTime":"08-02 09:30",
+          "taskState":"已批改"
+        },
+        {
+          "icoImgScr":"../../common/images/temp/task_ico1.gif",
+          "taskClass":"yellow",
+          "taskCatalog":"第二单元",
+          "taskCase":"教材作业",
+          "taskName":"我们一起好好学习",
+          "lastTime":"08-02 09:30",
+          "taskState":"已批改"
+        }
+      ]
+    },
+    {
+      "taskTime":"08月02日",
+      "taskList":[
+        {
+          "icoImgScr":"../../common/images/temp/task_ico2.gif",
+          "taskClass":"blue",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"已完成"
+        },
+        {
+          "icoImgScr":"../../common/images/temp/task_ico2.gif",
+          "taskClass":"gray",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"已截止"
+        }
+      ]
+    },
+    {
+      "taskTime":"08月03日",
+      "taskList":[
+        {
+          "icoImgScr":"../../common/images/temp/task_ico3.gif",
+          "taskClass":"red",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"未完成"
+        },
+        {
+          "icoImgScr":"../../common/images/temp/task_ico3.gif",
+          "taskClass":"blue",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"已完成"
+        },
+        {
+          "icoImgScr":"../../common/images/temp/task_ico3.gif",
+          "taskClass":"green",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"补交作业"
+        }
+      ]
+    },
+    {
+      "taskTime":"08月04日",
+      "taskList":[
+        {
+          "icoImgScr":"../../common/images/temp/task_ico3.gif",
+          "taskClass":"yellow",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"已批改"
+        },
+        {
+          "icoImgScr":"../../common/images/temp/task_ico3.gif",
+          "taskClass":"green",
+          "taskCatalog":"第二单元",
+          "taskCase":"教辅作业",
+          "taskName":"正数和负数",
+          "lastTime":"08-02 09:30",
+          "taskState":"补交作业"
+        }
+      ]
+    }
+    ]
+}
