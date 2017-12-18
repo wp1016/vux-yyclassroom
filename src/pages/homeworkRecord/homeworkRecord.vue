@@ -14,21 +14,19 @@
                     </div>
                     <div class="rect g_animat_hezi g_animat_justify g_animat_orient">
                       <p class="photo" v-if="idx%3==0"><img src="../../common/images/temp/task_ico1.gif" alt=""></p>
-                      <p class="photo" v-if="idx%3==1"><img src="../../common/images/temp/task_ico2.gif" alt=""></p>
-                      <p class="photo" v-if="idx%3==2"><img src="../../common/images/temp/task_ico3.gif" alt=""></p>
+                      <p class="photo" v-else-if="idx%3==1"><img src="../../common/images/temp/task_ico2.gif" alt=""></p>
+                      <p class="photo" v-else><img src="../../common/images/temp/task_ico3.gif" alt=""></p>
                       <h4 class="name">{{item1.taskName}}</h4>
                       <p class="lasttime">截止时间：{{item1.lastTime}}</p>
                     </div>
-                    <p class="state green" v-if="item1.taskClass=='green'">{{item1.taskState}}</p>
-                    <p class="state red" v-if="item1.taskClass=='red'">{{item1.taskState}}</p>
-                    <p class="state gray" v-if="item1.taskClass=='gray'">{{item1.taskState}}</p>
-                    <p class="state yellow" v-if="item1.taskClass=='yellow'">{{item1.taskState}}</p>
-                    <p class="state blue" v-if="item1.taskClass=='blue'">{{item1.taskState}}</p>
+                    <p class="state" :class="item1.taskClass">{{item1.taskState}}</p>
                   </a>
                 </li>
               </ul>
             </div>
-            <load-more tip="正在加载中。。。"></load-more>
+            <div v-if="onFetching" style="text-align: center;padding: 20px 0;">
+              <spinner type="spiral"></spinner>
+            </div>
           </div>
         </div>
       </div>
@@ -39,13 +37,13 @@
 <script>
   import {
     Scroller,
-    LoadMore
+    Spinner
   } from 'vux';
   export default {
     name:'homeworkRecord',
     components:{
       Scroller,
-      LoadMore
+      Spinner
     },
     data(){
       return{
