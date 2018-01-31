@@ -84,8 +84,6 @@
         if ( this.tWidth - left<=sW) {
           left = this.tWidth - sW
         }
-        console.log(sW,this.tWidth,left);
-
         let position = {
           left: left,
           top: 0
